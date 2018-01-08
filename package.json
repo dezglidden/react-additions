@@ -1,0 +1,17 @@
+{
+  "name": "@dezglidden/react-additions",
+  "version": "1.0.0",
+  "description": "Adds additional packages to create-react-app. Axiom, react-router, react-router-dom.",
+  "author": "dezglidden",
+  "license": "ISC",
+  "repository": { 
+  	"type" : "git",
+  	"url" : "https://github.com/dezglidden/react-additions.git"
+  },
+  "bin": {
+    "react-additions": "bin/install-additions.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}
