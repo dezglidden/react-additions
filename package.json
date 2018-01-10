@@ -4,14 +4,17 @@
   "description": "Adds additional packages to create-react-app. Axiom, react-router, react-router-dom.",
   "author": "dezglidden",
   "license": "ISC",
-  "repository": { 
-  	"type" : "git",
-  	"url" : "https://github.com/dezglidden/react-additions.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dezglidden/react-additions.git"
   },
   "bin": {
     "react-additions": "bin/install-additions.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "shelljs": "^0.7.8"
   }
 }
